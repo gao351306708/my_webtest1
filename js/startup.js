@@ -35,6 +35,9 @@ angular.module("basketApp").config(["$routeProvider", function($routeProvider) {
 				}).when("/TeamNum", {
 					templateUrl: "htmls/TeamNum/TeamNum.html",
 					controller:	TeamNumCtrl
+				}).when("/AboutUs", {
+					templateUrl: "htmls/AboutUs/AboutUs.html",
+					controller:	TeamNumCtrl
 				}).otherwise({
 					redirectTo: "/Main"
 				});

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>Mr Zhang</title>
+		<link rel="stylesheet" href="css/idangerous.swiper.css" />
+	    <link rel="stylesheet" href="css/basketball.css" />
+	    <script type="text/javascript" src="libs/angular.js" ></script>
+	    <script type="text/javascript" src="libs/angular-route.js" ></script>
+	    <script type="text/javascript" src="libs/jquery-1.10.1.min.js" ></script>
+		<script type="text/javascript" src="libs/idangerous.swiper-2.1.min.js" ></script>
+		<script type="text/javascript" src="js/directive.js" ></script>
+		<script type="text/javascript" src="js/service.js" ></script>
+		<script type="text/javascript" src="js/startup.js" ></script>
+		<script type="text/javascript" src="js/controller.js" ></script>
+		<script type="text/javascript" src="js/basketball.js" ></script>
+	</head>
+	<body lang="en" ng-app="basketApp" ng-controller="DocsController" id="top">
+		<!-- 音乐 -->
+		<div id="lanren">
+			<div id="audio-btn1" class="on" onclick="lanren.changeClass(this,'media')">
+				<audio  loop="loop" id="media">
+					<source src="docs/music/123.mp3" type="audio/mp3"></source>
+				</audio>
+			</div>
+		</div>
+		<div class="all_background">
+			<!-- 页面头部 -->
+			<div class="header">
+				<div class="threeColor">
+					<p class="blackcolor"></p>
+					<p class="redcolor"></p>
+					<p class="yellowcolor"></p>
+				</div>
+				<div class="trademark">
+					<div class="logo"></div>
+				</div>
+				<div class="list">
+					<div><a href="#/Main">首页</a></div>
+					<div><a href="#/News">新闻</a></div>
+					<div><a href="#/TeamNum">球员</a></div>
+					<div><a href="#/TeamIntroduce">球队简介</a></div>
+					<div><a href="#/TeamIntroduce">联系我们</a></div>
+				</div>
+			</div>
+			<!-- 页面中间部分，切换页面展示部分 -->
+			<div ng-view style="min-height: 400px;"></div>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div class="footer_top"></div>
+			<div class="footer_section">
+				<div style="width: 25%;" class="footetext">
+					<p>关于</p>
+					<a style="text-decoration: none;color: black;" href="http://www.nbastore.cn" target="_blank">NBA store</a><br />
+					<a style="text-decoration: none;color: black;" href="http://careers.nba.com/" target="_blank">NBA 就职机会</a>
+				</div>
+				<div style="width: 25%;" class="footetext">
+					<p>足球赛事</p>
+					<a style="text-decoration: none;color: black;" href="http://china.nba.com/#" target="_blank">2016年夏季联赛</a><br />
+					<a style="text-decoration: none;color: black;" href="http://china.nba.com/#" target="_blank">2016年总决赛</a><br />
+					<a style="text-decoration: none;color: black;" href="http://china.nba.com/#" target="_blank">2016年全明星</a>
+				</div>
+				<div style="width: 25%;" class="footetext">
+					<p>德足历史</p>
+					<a style="text-decoration: none;color: black;" href="http://china.nba.com/topics/history.htm" target="_blank">德足历史</a><br />
+					<a style="text-decoration: none;color: black;" href="http://china.nba.com/topics/50players.htm" target="_blank">德足大明星</a><br />
+					<a style="text-decoration: none;color: black;" href="http://china.nba.com/topics/faq/index.htm" target="_blank">足球知识Q&A</a>
+				</div>
+				<div style="width: 18%;" class="footetext">
+					<img height="80px" style="position: absolute;top: 27px;" src="img/NBA.png"/>
+					<span class="saomiao_name">足球官方应用</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

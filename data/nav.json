@@ -1,0 +1,136 @@
+ [{
+    "id": "TeamNum",
+    "name": "球員",
+    "path": "/Main",
+    "navItems":[{
+		"id": "01",
+		"name": "克洛泽",
+		"src_img": "img/120.jpg",
+		"src_href": "",
+		"path": ""
+	},{
+		"id": "02",
+		"name": "齐勒",
+		"src_img": "img/112.jpg",
+		"src_href": "",
+		"path": ""
+	},{
+		"id": "03",
+		"name": "格罗斯克罗伊",
+		"src_img": "img/113.jpg",
+		"src_href": "",
+		"path": ""
+	},{
+		"id": "04",
+		"name": "赫韦德斯",
+		"src_img": "img/114.jpg",
+		"src_href": "",
+		"path": ""
+	},{
+		"id": "05",
+		"name": "格策",
+		"src_img": "img/115.jpg",
+		"src_href": "",
+		"path": ""
+	},{
+		"id": "06",
+		"name": "赫迪拉",
+		"src_img": "img/116.jpg",
+		"src_href": "",
+		"path": ""
+	},{
+		"id": "07",
+		"name": "拉姆",
+		"src_img": "img/117.jpg",
+		"src_href": "",
+		"path": ""
+	},{
+		"id": "08",
+		"name": "杜尔姆",
+		"src_img": "img/118.jpg",
+		"src_href": "",
+		"path": ""
+	}]
+  },{
+    "id": "News",
+    "name": "产品详情",
+    "path": "/News",
+    "navItems":[{
+	    			"id": "01",
+	    			"name": "KÖPKE: ALLE DREI TORHÜTER BEIM CONFED CUP ZUM EINSATZ BRINGEN",
+	    			"src_img": "img/News1.jpg",
+	    			"src_href": "",
+	    			"path": "/News1"
+    			},{
+    				"id": "02",
+        			"name": "SAGNOL WIRD CO-TRAINER BEIM FC BAYERN",
+        			"src_img": "img/News2.jpg",
+        			"src_href": "",
+        			"path": "/News2"
+    			},{
+    				"id": "03",
+        			"name": "MARIO GOMEZ BLEIBT IN WOLFSBURG",
+        			"src_img": "img/News3.jpg",
+        			"src_href": "",
+        			"path": "/News3"
+    			},{
+	    			"id": "04",
+	    			"name": "DORTMUNDER U 17: VIERTES FINALE IN FOLGE?",
+	    			"src_img": "img/News4.jpg",
+	    			"src_href": "",
+	    			"path": "/News4"
+    			},{
+    				"id": "05",
+        			"name": "TEILNEHMERFELD DER 3. LIGA FÜR SAISON 2017/2018 KOMPLETT",
+        			"src_img": "img/News5.jpg",
+        			"src_href": "",
+        			"path": "/News5"
+    			},{
+    				"id": "06",
+        			"name": "WÜCK: ERSTES SPIEL, ERSTE MINUTE, ERSTES TOR",
+        			"src_img": "img/News6.jpg",
+        			"src_href": "",
+        			"path": "/News6"
+    			},{
+    				"id": "07",
+        			"name": "JENA VERPFLICHTET KANADIERIN CAMERON",
+        			"src_img": "img/News7.jpg",
+        			"src_href": "",
+        			"path": "/News7"
+    			},{
+    				"id": "08",
+        			"name": "KOMPLIMENT ANS TEAM : U 21 BEENDET EURO-TRAININGSLAGER",
+        			"src_img": "img/News8.jpg",
+        			"src_href": "",
+        			"path": "/News8"
+    			},{
+    				"id": "09",
+        			"name": "PK MIT LÖW UND RUDY LIVE AUF DFB-TV",
+        			"src_img": "img/News9.jpg",
+        			"src_href": "",
+        			"path": "/News9"
+    			},{
+    				"id": "10",
+        			"name": "TICKETS FÜRS SAN-MARINO-SPIEL IN NÜRNBERG",
+        			"src_img": "img/News10.jpg",
+        			"src_href": "",
+        			"path": "/News10"
+    			}
+                ]
+  },{
+    "id": "SkillInfo",
+    "name": "技术支持",
+    "path": "/SkillInfo",
+    "navItems":[]
+  },{
+    "id": "AboutUs",
+    "name": "关于我们",
+    "path": "/AboutUs",
+    "navItems":[]
+  },{
+    "id": "ConnectUs",
+    "name": "联系我们",
+    "path": "/ConnectUs",
+    "navItems":[]
+  }
+]

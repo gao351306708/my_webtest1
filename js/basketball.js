@@ -1,3 +1,5 @@
+var H = $(window).height();
+$('#mainContent').css("min-height",H-246);
 var lanren = {
 	changeClass: function (target,id) {
        	var className = $(target).attr('class');

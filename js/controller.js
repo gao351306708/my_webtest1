@@ -1,20 +1,25 @@
 //head Controller
 function MainCtrl($scope, $http) {
 	  /*幻灯片*/
-	 var mySwiper = new Swiper('.swiper-container',{
-			    loop:true,
-			    grabCursor: true,
-			    autoplay:3500,
-			    speed:1500,
-	  });
-	  $(".arrow-left").click(function(e){
-	  	e.preventDefault();
-	  	mySwiper.swipePrev();
-	  });
-	  $(".arrow-right").click(function(e){
-	  	e.preventDefault();
-	  	mySwiper.swipeNext();
-	  });
+	setTimeout(function () {
+		var mySwiper = new Swiper('.swiper-container',{
+			loop:true,
+			grabCursor: true,
+			autoplay:3500,
+			speed:1500
+		});
+		$(".arrow-left").click(function(e){
+			e.preventDefault();
+			mySwiper.swipePrev();
+		});
+		$(".arrow-right").click(function(e){
+			e.preventDefault();
+			mySwiper.swipeNext();
+		});
+		var H = $(window).height();
+		$('.pic_items').height(H-246-48)
+
+	},100)
 }
 //产品信息
 function NewsCtrl($scope, $http, $location) {
